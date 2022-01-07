@@ -1,0 +1,358 @@
+a {                               
+    color :whitesmoke;
+    }
+
+h1, h2
+{
+    font-family: 'droid_sansregular', 'Arial', sans-serif;          
+}
+
+h1, h1 + p
+{
+    text-align: center;
+}
+
+img
+{
+    float: right;
+    border: 1px solid;
+    margin-left: 5px;
+}
+
+h2
+{
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+}
+h3
+{
+    font-size: 13px;
+    text-align: justify;
+    font-family: 'Arial';
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#Titre, #Informations_Personnelles, #Photo, #Cover, #Cover2, #Cover3
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#Titre                                                      
+{
+    width: 100%;
+    background-color : slategrey;
+	float : center;
+	margin-left : 0%;
+    margin-top : 0%;
+    text-align: center;
+	font-size :15px;
+    color : whitesmoke;
+    
+}
+z
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav {
+    display: table;
+    width : 100%;
+    
+}
+nav > a {
+    display: table-cell;
+    width : 25%;
+    text-align: center;
+    border: 5px;
+    background-color : slategrey;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+.conteneur{
+  margin: 0px 20px;
+  height: 1500px;
+}
+#Informations_Personnelles
+{
+    background-color : slategrey;
+	float : right;
+	padding-bottom : 16.8em;
+    padding-left: 0em;
+    text-align: center;
+    font-size : 15px;
+    color: whitesmoke;
+    width: 35%;
+    margin-right: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 500px;
+    border-radius: 10px;
+    padding-right: 1em;
+    padding-left: 3em;
+    overflow : auto;
+    
+}
+
+.Photo{
+    float: left;
+    padding-bottom : 2em;
+    padding-left: 0em;
+    text-align: center;
+    font-size : 15px;
+    color: whitesmoke;
+    width: 35%;
+    margin-right: 0%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-right: 1em;
+    block-size: 30px;
+   
+    
+   
+    width: 240px;
+    height: 310px;
+    border: 3px solid slategrey;
+    background-image: url("c1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    -webkit-animation-name: diapo1;
+    -webkit-animation-duration: 36s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-box-direction: normal;
+    
+    -moz-animation-name: diapo1;
+    -moz-animation-duration: 36s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    animation-name: diapo1;
+    animation-duration: 36s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes diapo1{
+    0%{background-image:url("c1.jpg");}
+    25%{background-image:url("c2.jpg");}
+    50%{background-image:url("c3.jpg");}
+    75%{background-image:url("c4.jpg");}
+}
+@-moz-keyframes diapo1{
+    0%{background-image:url("c1.jpg");}
+    25%{background-image:url("c2.jpg");}
+    50%{background-image:url("c3.jpg");}
+    75%{background-image:url("c4.jpg");}
+}
+@keyframes diapo1{
+    0%{background-image:url("c1.jpg");}
+    25%{background-image:url("c2.jpg");}
+    50%{background-image:url("c3.jpg");}
+    75%{background-image:url("c4.jpg");}
+}
+
+.Cover{
+    float: left;
+    padding-bottom : 2em;
+    padding-left: 0em;
+    text-align: center;
+    font-size : 15px;
+    color: whitesmoke;
+    width: 35%;
+    margin-right: 0%;
+    margin-left: 13%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-right: 1em;
+    block-size: 30px;
+   
+    
+   
+    width: 240px;
+    height: 310px;
+    border: 3px solid slategrey;
+    background-image: url("c5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    -webkit-animation-name: diapo2;
+    -webkit-animation-duration: 36s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-box-direction: normal;
+    
+    -moz-animation-name: diapo2;
+    -moz-animation-duration: 36s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    animation-name: diapo2;
+    animation-duration: 36s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes diapo2{
+    0%{background-image:url("c5.jpg");}
+    25%{background-image:url("c6.jpg");}
+    50%{background-image:url("c7.jpg");}
+    75%{background-image:url("c8.jpg");}
+}
+@-moz-keyframes diapo2{
+    0%{background-image:url("c5.jpg");}
+    25%{background-image:url("c6.jpg");}
+    50%{background-image:url("c7.jpg");}
+    75%{background-image:url("c8.jpg");}
+}
+@keyframes diapo2{
+    0%{background-image:url("c5.jpg");}
+    25%{background-image:url("c6.jpg");}
+    50%{background-image:url("c7.jpg");}
+    75%{background-image:url("c8.jpg");}
+}
+
+.Cover2{
+    float: left;
+    padding-bottom : 2em;
+    padding-left: 0em;
+    text-align: center;
+    font-size : 15px;
+    color: whitesmoke;
+    width: 35%;
+    margin-right: 0%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-right: 1em;
+    block-size: 30px;
+   
+    
+   
+    width: 240px;
+    height: 310px;
+    border: 3px solid slategrey;
+    background-image: url("c9.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    -webkit-animation-name: diapo3;
+    -webkit-animation-duration: 36s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-box-direction: normal;
+    
+    -moz-animation-name: diapo3;
+    -moz-animation-duration: 36s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    animation-name: diapo3;
+    animation-duration: 36s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes diapo3{
+    0%{background-image:url("c9.jpg");}
+    33.3333333%{background-image:url("c10.jpg");}
+    66.6666666%{background-image:url("c11.jpg");}
+}
+@-moz-keyframes diapo3{
+    0%{background-image:url("c9.jpg");}
+    33.3333333%{background-image:url("c10.jpg");}
+    66.6666666%{background-image:url("c11.jpg");}
+}
+@keyframes diapo3{
+    0%{background-image:url("c9.jpg");}
+    33.3333333%{background-image:url("c10.jpg");}
+    66.6666666%{background-image:url("c11.jpg");}
+}
+
+.Cover3{
+    float: left;
+    padding-bottom : 2em;
+    padding-left: 0em;
+    text-align: center;
+    font-size : 15px;
+    color: whitesmoke;
+    width: 35%;
+    margin-right: 0%;
+    margin-left: 13%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-right: 1em;
+    block-size: 30px;
+   
+    
+   
+    width: 240px;
+    height: 310px;
+    border: 3px solid slategrey;
+    background-image: url("c12.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    -webkit-animation-name: diapo4;
+    -webkit-animation-duration: 36s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-box-direction: normal;
+    
+    -moz-animation-name: diapo4;
+    -moz-animation-duration: 36s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    animation-name: diapo4;
+    animation-duration: 36s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes diapo4{
+    0%{background-image:url("c12.jpg");}
+    25%{background-image:url("c13.jpg");}
+    50%{background-image:url("c14.jpg");}
+    75%{background-image:url("c15.jpg");}
+}
+@-moz-keyframes diapo4{
+    0%{background-image:url("c12.jpg");}
+    25%{background-image:url("c13.jpg");}
+    50%{background-image:url("c14.jpg");}
+    75%{background-image:url("c15.jpg");}
+}
+@keyframes diapo4{
+    0%{background-image:url("c12.jpg");}
+    25%{background-image:url("c13.jpg");}
+    50%{background-image:url("c14.jpg");}
+    75%{background-image:url("c15.jpg");}
+}
